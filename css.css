@@ -38,7 +38,7 @@ header {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
-/* NUR das erste UL (Hauptmenü) */
+/* Hauptmenü */
 .navbar > ul {
   display: flex;
   list-style: none;
@@ -47,12 +47,12 @@ header {
   background: #333;
 }
 
-/* Alle LI */
+/* Alle Listenpunkte */
 .navbar li {
   position: relative;
 }
 
-/* Links */
+/* Hauptlinks */
 .navbar a {
   display: block;
   padding: 15px;
@@ -60,26 +60,43 @@ header {
   text-decoration: none;
 }
 
-/* Dropdown-Menü */
+/* Hover Farbe */
+.navbar a:hover {
+  background: #555;
+}
+
+/* Dropdown */
 .dropdown-content {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
   background: #444;
   min-width: 150px;
+  z-index: 1000;
 }
 
-/* GANZ WICHTIG: wieder untereinander! */
+/* Dropdown Einträge untereinander */
 .dropdown-content li {
   display: block;
+  width: 100%;
 }
 
-/* Anzeigen beim Hover */
+/* Dropdown Links */
+.dropdown-content a {
+  padding: 12px 15px;
+  white-space: nowrap;
+}
+
+/* Öffnen */
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 /* Inhaltsbereich */
 main {
   padding: 20px;
