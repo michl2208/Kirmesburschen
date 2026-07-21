@@ -38,22 +38,44 @@ header {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
-nav {
-  margin-top: 15px;
+/* Grundmenü */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background: #333;
 }
 
-nav a {
-  margin: 0 12px;
-  color: #ffffff;
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  padding: 15px;
+  color: white;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  transition: color 0.5s;
 }
 
-nav a:hover {
-  color: #384994;
-  text-decoration: underline;
+/* Dropdown verstecken */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #444;
+  min-width: 150px;
+}
+
+/* Dropdown sichtbar beim Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Links im Dropdown */
+.dropdown-content li a {
+  padding: 10px;
 }
 
 /* Inhaltsbereich */
