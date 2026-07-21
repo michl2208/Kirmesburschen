@@ -51,6 +51,7 @@ header {
 /* Alle Listenpunkte */
 .navbar li {
   position: relative;
+  justify-content: center;
 }
 
 /* Hauptlinks */
