@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kirmesburschen Braach - Kontakt</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body id="top">
+  <header class="Kontaktformular">
+    <div class="menu">
+      <h1>Kirmesburschen Braach</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Startseite</a></li>
+
+          <li class="dropdown">
+            <a href="Veranstaltungen.html">Veranstaltungen</a>
+            <ul class="dropdown-content">
+              <li><a href="Kirmes2026.html">Kirmes 2026</a></li>
+              <li><a href="Brunnenfest2028.html">Brunnenfest 2028</a></li>
+            </ul>
+          </li>
+
+          <li><a href="Aktionen.html">Aktionen</a></li>
+
+          <li class="dropdown">
+            <a href="#">Über Uns</a>
+            <ul class="dropdown-content">
+              <li><a href="Über uns.html">Historie</a></li>
+              <li><a href="Bildergalerie.html">Bildergalerie</a></li>
+            </ul>
+          </li>
+
+          <li><a href="Kontaktformular.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <form action="https://formspree.io/f/mdaqgkgg" method="post">
+      <h3> Kontaktformular </h3><b>
+<!--Grunddaten-->
+        Vorname: 
+          <input name="Vorname" type="text" size="15" maxlength="15" placeholder="Max"><br> 
+        Nachname: 
+          <input name="Nachname" type="text" size="15" maxlength="15" placeholder="Mustermann"><br>
+        E-Mail:
+          <input name="E-Mail" type="text" size="30" maxlength="30" placeholder="max.mustermann@gmail.com"><p>
+		Telefonnummer:
+          <input name="Telefonnummer" type="text" size="20" maxlength="20" placeholder="+49 123 45678901"><p>
+<!--Problema-->
+        <label for="problem">Anfrage:</label><br>
+        <textarea id="problem" name="Problem" rows="5" cols="50" placeholder="Beschreiben Sie hier Ihr Anliegen..."></textarea> 
+<!--Senden/Reset-->
+            <p>
+            <input type="submit" value="Absenden">
+            <p>
+            <input type="reset" name="Reset" value="Zurücksetzen">
+    </form>
+  </section>
+<a href="#top" class="scroll-top-button">⬆ Nach oben</a>
+  <footer>
+    <p>&copy; 2026 michl2208</p>
+  </footer>
+</body>
+</html>
