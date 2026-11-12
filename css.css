@@ -23,7 +23,7 @@ h2 {
 
 /* Header / Navigation */
 header {
-  background: #404040;
+  background-image: url("HolzBackgrund.jpg");
   padding: 30px 20px;
   text-align: center;
   border-bottom: 3px solid #8c8c8c;
