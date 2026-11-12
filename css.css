@@ -23,7 +23,7 @@ h2 {
 
 /* Header / Navigation */
 header {
-  background-image: url("HolzBackgrund.jpg");
+  bacground: #404040; 
   padding: 30px 20px;
   text-align: center;
   border-bottom: 3px solid #8c8c8c;
@@ -153,7 +153,7 @@ a:hover {
 .Kontaktformular {
   background-size: cover;
   background-position: center;
-  background-color: burlywood;
+  background-image: url("HolzBackgrund.jpg");
   padding: 80px 20px;
   text-align: center;
 }
